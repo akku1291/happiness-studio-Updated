@@ -69,3 +69,13 @@ ul li {
     color: #F28C8C;
     text-decoration: none;
 }
+/* Mobile hamburger nav */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    padding: 8px 0;
+  }
+}
